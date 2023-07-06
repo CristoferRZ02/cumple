@@ -1,0 +1,50 @@
+.swal2-popup {
+  top: -30%; /* Ajusta el valor para mover la alerta más arriba */
+}
+
+@media (max-width: 700px) {
+  .swal2-popup{
+    height: 90%; /* Ajusta el valor para hacer la alerta más larga */
+    max-height: none; /* Elimina la altura máxima para permitir que la alerta se expanda completamente */
+    padding: 1.5em;
+  }
+
+  .swal2-title{
+    margin-top: 80px;
+    font-size: 15px;
+  }
+
+  .swal2-actions{
+    margin-top: -170px;
+  }
+
+  .custom-alert-title{
+    font-size: 15px;
+  }
+
+  .custom-alert-button{
+    font-size: 13px;
+  }
+}
+
+/* Estilos para la versión de escritorio */
+@media (min-width: 701px) {
+  .swal2-actions {
+      justify-content: flex-end; /* Alinea los botones a la derecha */
+  }
+
+  .swal2-actions .swal2-confirm {
+      margin-top: -20px; /* Ajusta el margen izquierdo del botón */
+  }
+
+}
+
+
+
+
+
+
+
+
+
+ 
